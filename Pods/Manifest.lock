@@ -1,0 +1,24 @@
+PODS:
+  - Alamofire (5.7.1)
+  - KeychainSwift (20.0.0)
+  - MBProgressHUD (1.2.0)
+
+DEPENDENCIES:
+  - Alamofire
+  - KeychainSwift (~> 20.0)
+  - MBProgressHUD (~> 1.2.0)
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - KeychainSwift
+    - MBProgressHUD
+
+SPEC CHECKSUMS:
+  Alamofire: 0123a34370cb170936ae79a8df46cc62b2edeb88
+  KeychainSwift: 0ce6a4d13f7228054d1a71bb1b500448fb2ab837
+  MBProgressHUD: 3ee5efcc380f6a79a7cc9b363dd669c5e1ae7406
+
+PODFILE CHECKSUM: 8a0c2c8d5d32e79f90d8068aba0d7ee8fa6dc4dd
+
+COCOAPODS: 1.12.1
