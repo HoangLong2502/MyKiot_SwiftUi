@@ -17,11 +17,19 @@ struct AccountDetailEntity: Decodable {
     let webSite: String?
     let email: String?
     let address: AddressDetailEntity?
-    let cardBank: CardBankEntity?
+    let cardBank: [CardBankEntity]?
 }
 
-struct CardBankEntity: Decodable {
-    
+struct CardBankEntity: Decodable, Hashable {
+    let id: Int?
+    let fullName, cardNumber: String?
+    let status: Bool?
+    let qrcode, expriryDate, cvv: String?
+    let cardType, bank, account: Int?
+    let bankId: Int?
+    let bankTitle, bankCode, bankShortName, bankImg, bankBin, bankSwiftCode: String?
+    let cardId: Int?
+    let cardTitle, cardCode: String?
 }
 
 struct AddressDetailEntity: Decodable {

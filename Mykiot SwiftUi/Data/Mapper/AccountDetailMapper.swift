@@ -13,6 +13,8 @@ class AccountDetailMapper: BaseDataMapper {
     
     typealias M = AccountDetailEntity
     
+    private let cardBankMapper: CardBankEntityMapper = CardBankEntityMapper()
+    
     func mapToEntity(data: AccountDetailModel?) -> AccountDetailEntity {
         return AccountDetailEntity(
             id: data?.id,
@@ -40,7 +42,7 @@ class AccountDetailMapper: BaseDataMapper {
                     title: data?.addressData?.wardData?.title
                 )
             ),
-            cardBank: CardBankEntity()
+            cardBank: cardBankMapper.mapToListEntity(listData: data?.cardData)
         )
     }
 }

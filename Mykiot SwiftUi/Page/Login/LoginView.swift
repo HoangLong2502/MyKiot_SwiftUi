@@ -41,10 +41,28 @@ struct LoginView: View {
                         Spacer()
                             .frame(height: Sp.s24)
                         
-                        BaseButton(title: "Đăng nhập") {
-                            loginVM.login(username: phone, password: password) { res in
-                                authenVM.updateAuth(value: res)
+                        HStack {
+                            BaseButton(title: "Đăng nhập") {
+                                loginVM.login(username: phone, password: password) { res in
+                                    authenVM.updateAuth(value: res)
+                                }
                             }
+                            
+                            Spacer()
+                                .frame(width: Sp.s16)
+                            
+                            Image(systemName: loginVM.isUnlocked ? "character" :  "faceid")
+                                .padding(Sp.s16)
+                                .overlay {
+                                    RoundedRectangle(cornerRadius: Sp.s8)
+                                        .stroke(Color.border_2)
+                                }
+                                .gesture(
+                                    TapGesture()
+                                        .onEnded({ _ in
+                                            loginVM.authenticate()
+                                        })
+                                )
                         }
                         Group {
                             Spacer()

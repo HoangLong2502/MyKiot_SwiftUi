@@ -8,6 +8,7 @@ target 'Mykiot SwiftUi' do
   pod 'Alamofire'
   pod 'KeychainSwift', '~> 20.0'
   pod 'MBProgressHUD', '~> 1.2.0'
+  pod 'SwiftUI-Pull-To-Refresh', '~> 1.1.9'
 
   # Pods for Mykiot SwiftUi
 

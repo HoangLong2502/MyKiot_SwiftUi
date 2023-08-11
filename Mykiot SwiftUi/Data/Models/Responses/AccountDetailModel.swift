@@ -150,8 +150,8 @@ struct CardDatum: Codable {
     var id: Int?
     var fullName, cardNumber: String?
     var status: Bool?
-    var qrcode, expriryDate: String?
-    var cvv, cardType, bank, account: Int?
+    var qrcode, expriryDate, cvv: String?
+    var cardType, bank, account: Int?
     var bankData: BankData?
     var cardTypeData: GenderDataClass?
 
@@ -194,7 +194,7 @@ extension CardDatum {
         status: Bool?? = nil,
         qrcode: String?? = nil,
         expriryDate: String?? = nil,
-        cvv: Int?? = nil,
+        cvv: String?? = nil,
         cardType: Int?? = nil,
         bank: Int?? = nil,
         account: Int?? = nil,

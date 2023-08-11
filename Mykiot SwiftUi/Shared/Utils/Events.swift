@@ -6,6 +6,7 @@
 //
 
 import Foundation
+import Alamofire
 
 class UtilEvents {
     
@@ -41,5 +42,14 @@ class UtilEvents {
         let dateFormatter = DateFormatter()
         dateFormatter.dateFormat = typeFormat ?? "dd/M/y"
         return dateFormatter.string(from: date)
+    }
+    
+    // Chuyển đổi đối tượng Decodable thành Parameters
+    func convertToParameters<T: Encodable>(_ object: T) throws -> Parameters {
+        let data = try JSONEncoder().encode(object)
+        guard let parameters = try JSONSerialization.jsonObject(with: data, options: .allowFragments) as? Parameters else {
+            throw AFError.parameterEncodingFailed(reason: .jsonEncodingFailed(error: AFError.ResponseSerializationFailureReason.inputFileNil as! Error))
+        }
+        return parameters
     }
 }

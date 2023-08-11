@@ -34,20 +34,23 @@ struct HomeView: View {
                         .frame(height: Sp.s16)
                     HStack(spacing: 16) {
                         // Phần tử 1
-                        VStack {
-                            Image("home_order_func")
-                                .resizable()
-                                .frame(width: Sp.s18, height: Sp.s32)
-                            Spacer()
-                                .frame(height: Sp.s8)
-                            Text("Đơn bán hàng")
-                                .font(Font.custom("Roboto", size: Sp.s12))
+                        NavigationLink(destination: OrdersPage()) {
+                            VStack {
+                                Image("home_order_func")
+                                    .resizable()
+                                    .frame(width: Sp.s18, height: Sp.s32)
+                                Spacer()
+                                    .frame(height: Sp.s8)
+                                Text("Đơn bán hàng")
+                                    .font(Font.custom("Roboto", size: Sp.s12))
+                                    .foregroundColor(Color.blackSystem)
+                            }
+                            .padding(Sp.s16)
+                            .frame(maxWidth: .infinity)
+                            .background(.white)
+                            .cornerRadius(Sp.s8)
+                            .shadow(color: Color.border_2, radius: Sp.s4, x: 0, y: Sp.s4)
                         }
-                        .padding(Sp.s16)
-                        .frame(maxWidth: .infinity)
-                        .background(.white)
-                        .cornerRadius(Sp.s8)
-                        .shadow(color: Color.border_2, radius: Sp.s4, x: 0, y: Sp.s4)
                         // Phần tử 2
                         NavigationLink(destination: ProductPage()) {
                             VStack {

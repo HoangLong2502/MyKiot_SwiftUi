@@ -36,11 +36,11 @@ struct BaseTextField: View {
                     .fontWeight(.semibold)
                     .font(Font.custom("Roboto", size: 14))
                 Spacer()
-                    .frame(height: Sp.s8)
+                    .frame(height: Sp.s12)
             }
             if isPassword {
                 SecureField(hint ?? "Search...", text: value)
-                    .frame(height: 48)
+                    .frame(height: 52)
                     .padding(.horizontal, Sp.s12)
                     .overlay(
                         RoundedRectangle(cornerRadius: Sp.s8)
@@ -55,19 +55,19 @@ struct BaseTextField: View {
                     }
                     TextField(hint ?? "Search...", text: value)
                         .font(.system(size: Sp.s14, weight: .regular))
-                        .frame(height: 48)
+                        .frame(height: 52)
                         .keyboardType(keyboardType ?? .default)
                     
                     if let suffixIcon = suffixIcon {
                         suffixIcon
                     }
                 }
-                .frame(height: 48)
+                .frame(height: 52)
                 .padding(.horizontal, Sp.s12)
                 .background(backgroundColor ?? .white)
-                .cornerRadius(Sp.s8)
+                .cornerRadius(Sp.s12)
                 .overlay(
-                    RoundedRectangle(cornerRadius: Sp.s8)
+                    RoundedRectangle(cornerRadius: Sp.s12)
                         .strokeBorder(Color.border_2)
                 )
             }

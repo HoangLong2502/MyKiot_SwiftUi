@@ -1,10 +1,12 @@
 import Foundation
 import UIKit
 import MBProgressHUD
+import LocalAuthentication
 
 class LoginViewModel: ObservableObject {
     @Published var showProgressView = false
     @Published var isLoginSuccess = false
+    @Published var isUnlocked = false
     
     private let loginUseCase: LoginUseCase = LoginUseCase()
     
@@ -25,6 +27,30 @@ class LoginViewModel: ObservableObject {
             } else {
                 complete?(false)
             }
+        }
+    }
+    
+    func authenticate() {
+        let context = LAContext()
+        var error: NSError?
+
+        // check whether biometric authentication is possible
+        if context.canEvaluatePolicy(.deviceOwnerAuthenticationWithBiometrics, error: &error) {
+            // it's possible, so go ahead and use it
+            let reason = "We need to unlock your data."
+
+            context.evaluatePolicy(.deviceOwnerAuthenticationWithBiometrics, localizedReason: reason) { success, authenticationError in
+                // authentication has now completed
+                if success {
+                    // authenticated successfully
+                    self.isUnlocked = true
+                } else {
+                    // there was a problem
+                }
+            }
+        } else {
+            // no biometrics
+            print("DEVICE NOT FOUND")
         }
     }
 }

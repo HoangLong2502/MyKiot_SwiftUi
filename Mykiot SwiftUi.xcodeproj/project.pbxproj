@@ -101,6 +101,25 @@
 		18CF05102A7D675E00DD1638 /* AccountDetailMapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18CF050F2A7D675E00DD1638 /* AccountDetailMapper.swift */; };
 		18CF05132A7DEDF400DD1638 /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18CF05122A7DEDF400DD1638 /* Data.swift */; };
 		18CF05152A7E24F700DD1638 /* View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18CF05142A7E24F700DD1638 /* View.swift */; };
+		18CF05172A809C2100DD1638 /* CardBankMapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18CF05162A809C2100DD1638 /* CardBankMapper.swift */; };
+		18CF051A2A80D25D00DD1638 /* CardCreatePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18CF05192A80D25D00DD1638 /* CardCreatePage.swift */; };
+		18CF051C2A80D28500DD1638 /* CardCreateViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18CF051B2A80D28500DD1638 /* CardCreateViewModel.swift */; };
+		18CF051E2A80D35900DD1638 /* BankRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18CF051D2A80D35900DD1638 /* BankRepository.swift */; };
+		18CF05202A80DF1A00DD1638 /* BankModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18CF051F2A80DF1A00DD1638 /* BankModel.swift */; };
+		18CF05222A80E02A00DD1638 /* CheckCardPayloadModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18CF05212A80E02A00DD1638 /* CheckCardPayloadModel.swift */; };
+		18CF05242A80E0C000DD1638 /* CreateCardModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18CF05232A80E0C000DD1638 /* CreateCardModel.swift */; };
+		18CF05262A80E3D000DD1638 /* BankEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18CF05252A80E3D000DD1638 /* BankEntity.swift */; };
+		18CF05282A80E49800DD1638 /* BankMapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18CF05272A80E49800DD1638 /* BankMapper.swift */; };
+		18CF052A2A80E5BC00DD1638 /* BankListUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18CF05292A80E5BC00DD1638 /* BankListUseCase.swift */; };
+		18CF052D2A80F1B200DD1638 /* ChoseBankView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18CF052C2A80F1B200DD1638 /* ChoseBankView.swift */; };
+		18CF05312A80FC3E00DD1638 /* TypingNumberCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18CF05302A80FC3E00DD1638 /* TypingNumberCard.swift */; };
+		18CF05332A81F51F00DD1638 /* BankCheckCardUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18CF05322A81F51F00DD1638 /* BankCheckCardUseCase.swift */; };
+		18CF05352A821BD300DD1638 /* BankCreateCardUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18CF05342A821BD300DD1638 /* BankCreateCardUseCase.swift */; };
+		18CF05382A82275700DD1638 /* OrdersPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18CF05372A82275700DD1638 /* OrdersPage.swift */; };
+		18CF053B2A82392F00DD1638 /* OrderTypeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18CF053A2A82392F00DD1638 /* OrderTypeView.swift */; };
+		18CF053D2A82396400DD1638 /* OrderViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18CF053C2A82396400DD1638 /* OrderViewModel.swift */; };
+		18CF053F2A8331FF00DD1638 /* BaseInfiniteScroll.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18CF053E2A8331FF00DD1638 /* BaseInfiniteScroll.swift */; };
+		18CF05422A8332F400DD1638 /* BaseInfiniteScrollViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18CF05412A8332F400DD1638 /* BaseInfiniteScrollViewModel.swift */; };
 		FF64DC78177DB58729F6DE5F /* Pods_Mykiot_SwiftUi.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E3E02B65BBCF4A9C335701CE /* Pods_Mykiot_SwiftUi.framework */; };
 /* End PBXBuildFile section */
 
@@ -201,6 +220,25 @@
 		18CF050F2A7D675E00DD1638 /* AccountDetailMapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountDetailMapper.swift; sourceTree = "<group>"; };
 		18CF05122A7DEDF400DD1638 /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
 		18CF05142A7E24F700DD1638 /* View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = View.swift; sourceTree = "<group>"; };
+		18CF05162A809C2100DD1638 /* CardBankMapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardBankMapper.swift; sourceTree = "<group>"; };
+		18CF05192A80D25D00DD1638 /* CardCreatePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardCreatePage.swift; sourceTree = "<group>"; };
+		18CF051B2A80D28500DD1638 /* CardCreateViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardCreateViewModel.swift; sourceTree = "<group>"; };
+		18CF051D2A80D35900DD1638 /* BankRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BankRepository.swift; sourceTree = "<group>"; };
+		18CF051F2A80DF1A00DD1638 /* BankModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BankModel.swift; sourceTree = "<group>"; };
+		18CF05212A80E02A00DD1638 /* CheckCardPayloadModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckCardPayloadModel.swift; sourceTree = "<group>"; };
+		18CF05232A80E0C000DD1638 /* CreateCardModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateCardModel.swift; sourceTree = "<group>"; };
+		18CF05252A80E3D000DD1638 /* BankEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BankEntity.swift; sourceTree = "<group>"; };
+		18CF05272A80E49800DD1638 /* BankMapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BankMapper.swift; sourceTree = "<group>"; };
+		18CF05292A80E5BC00DD1638 /* BankListUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BankListUseCase.swift; sourceTree = "<group>"; };
+		18CF052C2A80F1B200DD1638 /* ChoseBankView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChoseBankView.swift; sourceTree = "<group>"; };
+		18CF05302A80FC3E00DD1638 /* TypingNumberCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TypingNumberCard.swift; sourceTree = "<group>"; };
+		18CF05322A81F51F00DD1638 /* BankCheckCardUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BankCheckCardUseCase.swift; sourceTree = "<group>"; };
+		18CF05342A821BD300DD1638 /* BankCreateCardUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BankCreateCardUseCase.swift; sourceTree = "<group>"; };
+		18CF05372A82275700DD1638 /* OrdersPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrdersPage.swift; sourceTree = "<group>"; };
+		18CF053A2A82392F00DD1638 /* OrderTypeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderTypeView.swift; sourceTree = "<group>"; };
+		18CF053C2A82396400DD1638 /* OrderViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderViewModel.swift; sourceTree = "<group>"; };
+		18CF053E2A8331FF00DD1638 /* BaseInfiniteScroll.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseInfiniteScroll.swift; sourceTree = "<group>"; };
+		18CF05412A8332F400DD1638 /* BaseInfiniteScrollViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseInfiniteScrollViewModel.swift; sourceTree = "<group>"; };
 		E3E02B65BBCF4A9C335701CE /* Pods_Mykiot_SwiftUi.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Mykiot_SwiftUi.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F82C1FC6104EBF02DC29DA49 /* Pods-Mykiot SwiftUi.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Mykiot SwiftUi.debug.xcconfig"; path = "Target Support Files/Pods-Mykiot SwiftUi/Pods-Mykiot SwiftUi.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -236,6 +274,8 @@
 				18A5302D2A77FD6200A7BCE7 /* CustomerMapper.swift */,
 				18A530472A794F7E00A7BCE7 /* LocationDataMapper.swift */,
 				18CF050F2A7D675E00DD1638 /* AccountDetailMapper.swift */,
+				18CF05162A809C2100DD1638 /* CardBankMapper.swift */,
+				18CF05272A80E49800DD1638 /* BankMapper.swift */,
 			);
 			path = Mapper;
 			sourceTree = "<group>";
@@ -249,6 +289,7 @@
 				18A530282A77F84800A7BCE7 /* CustomerRespository.swift */,
 				18A530422A794A5600A7BCE7 /* LocationRepository.swift */,
 				1888B1102A7D5DE900B4A2B7 /* AccountRepository.swift */,
+				18CF051D2A80D35900DD1638 /* BankRepository.swift */,
 			);
 			path = Repository;
 			sourceTree = "<group>";
@@ -280,6 +321,7 @@
 				18A530262A77F82900A7BCE7 /* CustomerResponseModel.swift */,
 				18A530402A7949A200A7BCE7 /* AddressDataModel.swift */,
 				1888B10E2A7D5B8600B4A2B7 /* AccountDetailModel.swift */,
+				18CF051F2A80DF1A00DD1638 /* BankModel.swift */,
 			);
 			path = Responses;
 			sourceTree = "<group>";
@@ -290,6 +332,8 @@
 				186F336F2A651C09005671A0 /* LoginPayloadModel.swift */,
 				186F33CA2A6EC88F005671A0 /* ProductPayloadModel.swift */,
 				18A5303C2A790A1D00A7BCE7 /* CustomerDataPayloadModel.swift */,
+				18CF05212A80E02A00DD1638 /* CheckCardPayloadModel.swift */,
+				18CF05232A80E0C000DD1638 /* CreateCardModel.swift */,
 			);
 			path = Payloads;
 			sourceTree = "<group>";
@@ -317,6 +361,10 @@
 				18A5304D2A79640E00A7BCE7 /* DistrictUseCase.swift */,
 				18A5304F2A7965C500A7BCE7 /* WardUseCase.swift */,
 				18CF050D2A7D666300DD1638 /* AccountDetailUseCase.swift */,
+				18CF05252A80E3D000DD1638 /* BankEntity.swift */,
+				18CF05292A80E5BC00DD1638 /* BankListUseCase.swift */,
+				18CF05322A81F51F00DD1638 /* BankCheckCardUseCase.swift */,
+				18CF05342A821BD300DD1638 /* BankCreateCardUseCase.swift */,
 			);
 			path = Usecase;
 			sourceTree = "<group>";
@@ -598,6 +646,7 @@
 		18B01AD12A5FDD88003481B0 /* BaseView */ = {
 			isa = PBXGroup;
 			children = (
+				18CF05402A8332D100DD1638 /* InfiniteScrollView */,
 				18B01AD22A5FDDC1003481B0 /* BaseTextField.swift */,
 				18B01AD42A5FEF63003481B0 /* BaseCheckBox.swift */,
 				18B01AD62A5FF1F5003481B0 /* BaseButton.swift */,
@@ -612,6 +661,8 @@
 		18B01AD82A6002C1003481B0 /* Page */ = {
 			isa = PBXGroup;
 			children = (
+				18CF05362A82273200DD1638 /* Orders */,
+				18CF05182A80D23600DD1638 /* CardCreate */,
 				18A530572A7BA18500A7BCE7 /* AccountInfo */,
 				18A5303B2A79082200A7BCE7 /* AddressPicker */,
 				18A5305A2A7BA67200A7BCE7 /* CustomerDetail */,
@@ -654,6 +705,52 @@
 				18CF05142A7E24F700DD1638 /* View.swift */,
 			);
 			path = Extention;
+			sourceTree = "<group>";
+		};
+		18CF05182A80D23600DD1638 /* CardCreate */ = {
+			isa = PBXGroup;
+			children = (
+				18CF052B2A80F18E00DD1638 /* ChildView */,
+				18CF05192A80D25D00DD1638 /* CardCreatePage.swift */,
+				18CF051B2A80D28500DD1638 /* CardCreateViewModel.swift */,
+			);
+			path = CardCreate;
+			sourceTree = "<group>";
+		};
+		18CF052B2A80F18E00DD1638 /* ChildView */ = {
+			isa = PBXGroup;
+			children = (
+				18CF052C2A80F1B200DD1638 /* ChoseBankView.swift */,
+				18CF05302A80FC3E00DD1638 /* TypingNumberCard.swift */,
+			);
+			path = ChildView;
+			sourceTree = "<group>";
+		};
+		18CF05362A82273200DD1638 /* Orders */ = {
+			isa = PBXGroup;
+			children = (
+				18CF05392A8238FD00DD1638 /* Views */,
+				18CF05372A82275700DD1638 /* OrdersPage.swift */,
+				18CF053C2A82396400DD1638 /* OrderViewModel.swift */,
+			);
+			path = Orders;
+			sourceTree = "<group>";
+		};
+		18CF05392A8238FD00DD1638 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				18CF053A2A82392F00DD1638 /* OrderTypeView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		18CF05402A8332D100DD1638 /* InfiniteScrollView */ = {
+			isa = PBXGroup;
+			children = (
+				18CF053E2A8331FF00DD1638 /* BaseInfiniteScroll.swift */,
+				18CF05412A8332F400DD1638 /* BaseInfiniteScrollViewModel.swift */,
+			);
+			path = InfiniteScrollView;
 			sourceTree = "<group>";
 		};
 		2F04C52FF79F7F292A24D086 /* Pods */ = {
@@ -788,6 +885,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				18A530292A77F84800A7BCE7 /* CustomerRespository.swift in Sources */,
+				18CF05352A821BD300DD1638 /* BankCreateCardUseCase.swift in Sources */,
 				18A530382A78BE1100A7BCE7 /* CustomerCreatePage.swift in Sources */,
 				186F33C72A6E559D005671A0 /* ProductCreatePage.swift in Sources */,
 				186F33CD2A6ECD2C005671A0 /* ProductCreateUseCase.swift in Sources */,
@@ -805,10 +903,13 @@
 				18A530692A7CE3EA00A7BCE7 /* BankPage.swift in Sources */,
 				186F33782A651D05005671A0 /* AuthenticateHandle.swift in Sources */,
 				18A5303D2A790A1D00A7BCE7 /* CustomerDataPayloadModel.swift in Sources */,
+				18CF053B2A82392F00DD1638 /* OrderTypeView.swift in Sources */,
 				18CF050E2A7D666300DD1638 /* AccountDetailUseCase.swift in Sources */,
 				186F33702A651C09005671A0 /* LoginPayloadModel.swift in Sources */,
 				186F33962A663790005671A0 /* HomeHeader.swift in Sources */,
 				18CF05132A7DEDF400DD1638 /* Data.swift in Sources */,
+				18CF05382A82275700DD1638 /* OrdersPage.swift in Sources */,
+				18CF053F2A8331FF00DD1638 /* BaseInfiniteScroll.swift in Sources */,
 				186F33932A659D4C005671A0 /* AuthenViewModel.swift in Sources */,
 				18A530502A7965C500A7BCE7 /* WardUseCase.swift in Sources */,
 				18A5303F2A790C6100A7BCE7 /* AddressPicker.swift in Sources */,
@@ -828,15 +929,19 @@
 				186F33C02A6E394F005671A0 /* ProductEntity.swift in Sources */,
 				18A530612A7CB33400A7BCE7 /* AccountInfoViewModel.swift in Sources */,
 				18A530272A77F82900A7BCE7 /* CustomerResponseModel.swift in Sources */,
+				18CF05222A80E02A00DD1638 /* CheckCardPayloadModel.swift in Sources */,
 				18A5303A2A78C5CA00A7BCE7 /* CustomerCreateViewModel.swift in Sources */,
 				1888B1112A7D5DE900B4A2B7 /* AccountRepository.swift in Sources */,
+				18CF051E2A80D35900DD1638 /* BankRepository.swift in Sources */,
 				18A530202A766C5800A7BCE7 /* BaseLoading.swift in Sources */,
 				18A5304A2A79507700A7BCE7 /* AddressPickerViewModel.swift in Sources */,
+				18CF05332A81F51F00DD1638 /* BankCheckCardUseCase.swift in Sources */,
 				18A5304C2A7952BE00A7BCE7 /* ProvinceUseCase.swift in Sources */,
 				18A5306D2A7CE49000A7BCE7 /* BaseScaffold.swift in Sources */,
 				186F33D02A6FA3CF005671A0 /* ProductScanPage.swift in Sources */,
 				18A530562A7B4BF800A7BCE7 /* BasePopup.swift in Sources */,
 				186F338E2A6524BA005671A0 /* LoginView.swift in Sources */,
+				18CF051A2A80D25D00DD1638 /* CardCreatePage.swift in Sources */,
 				186F33B22A6D3277005671A0 /* ProductViewModel.swift in Sources */,
 				18A530232A77F1AD00A7BCE7 /* CustomerListPage.swift in Sources */,
 				186F33D22A6FA9EA005671A0 /* CameraView.swift in Sources */,
@@ -845,9 +950,14 @@
 				18A530332A78060600A7BCE7 /* CustomerPreviewCard.swift in Sources */,
 				18A530302A77FE0D00A7BCE7 /* CustomerGetListUseCase.swift in Sources */,
 				18A530662A7CE3D100A7BCE7 /* AddressPage.swift in Sources */,
+				18CF05422A8332F400DD1638 /* BaseInfiniteScrollViewModel.swift in Sources */,
 				186F33A72A68449D005671A0 /* OrderMapper.swift in Sources */,
+				18CF051C2A80D28500DD1638 /* CardCreateViewModel.swift in Sources */,
 				18A530642A7CE3B900A7BCE7 /* InfoPage.swift in Sources */,
+				18CF05262A80E3D000DD1638 /* BankEntity.swift in Sources */,
+				18CF05242A80E0C000DD1638 /* CreateCardModel.swift in Sources */,
 				18CF050C2A7D654300DD1638 /* AccountDetailEntity.swift in Sources */,
+				18CF05312A80FC3E00DD1638 /* TypingNumberCard.swift in Sources */,
 				18B01AD32A5FDDC1003481B0 /* BaseTextField.swift in Sources */,
 				186F33B42A6D3298005671A0 /* ProductPage.swift in Sources */,
 				18A5306F2A7D0A2F00A7BCE7 /* InfoItemView.swift in Sources */,
@@ -857,6 +967,7 @@
 				186F33BB2A6E34E6005671A0 /* ProductResponseModel.swift in Sources */,
 				18B01ACE2A5FD258003481B0 /* Colors.swift in Sources */,
 				186F339B2A669F70005671A0 /* HomeOrderCard.swift in Sources */,
+				18CF05172A809C2100DD1638 /* CardBankMapper.swift in Sources */,
 				186F33C22A6E3B3F005671A0 /* ProductMapper.swift in Sources */,
 				18B01ADC2A60038C003481B0 /* HomeView.swift in Sources */,
 				18B01ABF2A5FA8BB003481B0 /* Mykiot_SwiftUiApp.swift in Sources */,
@@ -871,14 +982,19 @@
 				186F33A32A684203005671A0 /* OrderEntity.swift in Sources */,
 				186F339F2A6836D4005671A0 /* OrderResponseModel.swift in Sources */,
 				18B01AD52A5FEF63003481B0 /* BaseCheckBox.swift in Sources */,
+				18CF052A2A80E5BC00DD1638 /* BankListUseCase.swift in Sources */,
 				18A530252A77F1BF00A7BCE7 /* CustomerListViewModel.swift in Sources */,
 				186F33A12A683731005671A0 /* OrderRepository.swift in Sources */,
 				186F33CB2A6EC88F005671A0 /* ProductPayloadModel.swift in Sources */,
 				186F33722A651C18005671A0 /* LoginResponseModel.swift in Sources */,
 				186F337F2A65202E005671A0 /* LoginUseCase.swift in Sources */,
+				18CF05282A80E49800DD1638 /* BankMapper.swift in Sources */,
 				18A530542A7B405200A7BCE7 /* CustomerCreateUseCase.swift in Sources */,
 				186F33892A6520C7005671A0 /* BaseMapper.swift in Sources */,
 				18A5304E2A79640E00A7BCE7 /* DistrictUseCase.swift in Sources */,
+				18CF053D2A82396400DD1638 /* OrderViewModel.swift in Sources */,
+				18CF052D2A80F1B200DD1638 /* ChoseBankView.swift in Sources */,
+				18CF05202A80DF1A00DD1638 /* BankModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
